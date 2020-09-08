@@ -1,0 +1,309 @@
+a{
+    color: lightblue;
+    text-decoration:none;
+}
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.btn{
+    margin-top: 10px;
+}
+nav{
+    background-color: rgba(177, 13, 253, 0.2);
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    background-image: url("/imgs/fondo_negro.jpg");
+}
+#carouselExampleCaptions{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 100%;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption h5{
+    font-size: 20px;
+}
+#mainBlock{
+    width: 100%;
+    height: 190px;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+#titulo_indice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 20px;
+}
+#indices{
+    display: flex;
+    background-color: rgba(32, 92, 153, 0.2);
+    color: whitesmoke;
+    border:solid white;
+    width: 380px;
+    padding-right: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.contNoticias{
+    display: flex;
+    background-color: rgba(131, 27, 117, 0.4);
+    border: solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 10px;
+    overflow: hidden;
+}
+#not1{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);;
+    margin: 6px;
+    width: 350px;
+    height: 175px;
+    max-width: 100%;
+}
+#tituloNot1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+#not1 img{
+    display: block;
+    position: relative;
+    width: 189px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+.bloque2{
+    width: 450px;
+    max-width: 100%;
+}
+#not2{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    height: 149px;
+    margin: 6px;
+    overflow: hidden;
+}
+#tituloNot2{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+#not2 img{
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 107px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 8px;
+    border: 1px solid white;
+}
+#divTituloNot{
+    width: 120px;
+    height: 20px;
+    margin: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tituloNot{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14.8px;
+}
+#not3{
+    background-color: rgba(54, 134, 29, 0.2);
+    border: 1px solid rgba(250, 247, 247, 0.6);;
+    width: 370px;
+    height: 175px;
+    margin: 6px;
+}
+#tituloNot3{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+#not3 img{
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 125px;
+    margin: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+#astronomia{
+    position: absolute;
+    left: 920px;
+    top: 478px;
+}
+.otherDivs{
+    margin-left: auto;
+    margin-right: auto;
+}
+.div1{
+    width: 910px;
+    box-sizing: border-box;
+    background-color: rgba(197, 224, 42, 0.2);
+    border: 1px solid skyblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.div2{
+    width: 910px;
+    box-sizing: border-box;
+    background-color: rgba(224, 42, 57, 0.2);
+    border: 1px solid skyblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.div3{
+    width: 910px;
+    box-sizing: border-box;
+    background-color: rgba(34, 241, 196, 0.2);
+    border: 1px solid skyblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.div4{
+    width: 910px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 0, 221, 0.2);
+    border: 1px solid skyblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.div5{
+    width: 910px;
+    box-sizing: border-box;
+    background-color: rgba(114, 233, 3, 0.2);
+    border: 1px solid skyblue;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+}
+.divAdivinanza{
+    background-color: rgba(0, 4, 255, 0.2);
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    position: relative;
+    width: 910px;
+    height: 560px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+}
+.divAdivinanza img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#volver_arriba{
+    font-size: 13px;
+    bottom: -12px;
+    right: 5px;
+    width: 100px;
+    border: 3px solid rgb(223, 174, 14, 0.4);
+    position: fixed;
+}
+#readonly{
+    display: block;
+}
+@media (max-width: 1218px){
+    #mainBlock{
+        display: inline;
+    }
+    #indices{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contNoticias{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 838px){
+    #not3 img{
+        height: 107px;
+    }
+}
+@media (max-width: 796px){
+    .divAdivinanza{
+        height: 580px;
+    }
+}
+@media (max-width: 612px){
+    .divAdivinanza{
+        height: 600px;
+    }
+}
+@media (max-width: 548px){
+    .divAdivinanza{
+        height: 590px;
+    }
+}

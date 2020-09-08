@@ -1,0 +1,39 @@
+a{
+    color: lightblue;
+    text-decoration:none;
+}
+nav{
+    background-color: rgba(177, 13, 253, 0.2);
+    width: auto;
+    height: auto;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+body{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: black;
+    background-image: url("/imgs/fondo_negro.jpg");
+    color: white;
+}
+form{
+    border-radius: 20px;
+    padding: 17px;
+    width: 600px;
+    border: 2px solid white;
+    background-color: rgba(231, 235, 8, 0.1);
+    max-width: 100%;
+}
+.form-group{
+    padding: 0px;
+    width: 100%;
+}
+@media (max-width: 576px){
+    nav{
+        padding-right: 5px;
+    }
+}
